@@ -105,10 +105,12 @@ const Home = (props) => {
             </span>
           </span>
           <div className="home-btn-group1">
-            <button className="home-become-a-teacher button">
+            <Link to="/become-teacher" className="home-become-a-teacher button">
               Become A Teacher
-            </button>
-            <button className="home-free-trial button">Free Trial</button>
+            </Link>
+            <Link to="/signup" className="home-free-trial button">
+              Free Trial
+            </Link>
           </div>
         </div>
       </div>
@@ -126,23 +128,15 @@ const Home = (props) => {
             </span>
           </div>
           <div className="home-links-container">
-            <div className="home-container4">
-              <div className="home-company-container">
-                <span className="home-text13">Company</span>
-                <span className="home-text14">About</span>
-                <span className="home-text15">Careers</span>
-                <span className="home-text16">Contact</span>
-                <span>Blog</span>
-              </div>
-            </div>
+            <div className="home-container4"></div>
             <div className="home-container5">
               <div className="home-contact">
-                <span className="home-text18">Contact Us</span>
-                <span className="home-text19">hello@example.com</span>
+                <span className="home-text13">Contact Us</span>
+                <span className="home-text14">hello@example.com</span>
                 <span>+0000000000</span>
               </div>
               <div className="home-socials">
-                <span className="home-text21">Follow Us</span>
+                <span className="home-text16">Follow Us</span>
                 <div className="home-icon-group1">
                   <svg
                     viewBox="0 0 950.8571428571428 1024"

@@ -28,16 +28,35 @@ const Signup = (props) => {
             <input
               type="text"
               placeholder="Enter User ID"
+              id="User ID"
               className="signup-textinput input"
             />
-            <span className="signup-text05">
+            <span className="signup-text05">Email </span>
+            <input
+              type="text"
+              placeholder="Enter Email"
+              id="Email"
+              className="signup-textinput1 input"
+            />
+            <span className="signup-text06">
+              <span>Phone Number</span>
+              <br></br>
+            </span>
+            <input
+              type="text"
+              placeholder="Enter Phone Number"
+              id="Phone Number"
+              className="signup-textinput2 input"
+            />
+            <span className="signup-text09">
               <span>Password</span>
               <br></br>
             </span>
             <input
               type="text"
               placeholder="Enter Password"
-              className="signup-textinput1 input"
+              id="Password"
+              className="signup-textinput3 input"
             />
             <button type="submit" className="signup-login button">
               Sign Up
@@ -50,7 +69,7 @@ const Signup = (props) => {
               <Link to="/" className="signup-navlink1">
                 Let&apos;s Learn
               </Link>
-              <span className="signup-text08">
+              <span className="signup-text12">
                 <br></br>
                 <span>
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit
@@ -58,23 +77,15 @@ const Signup = (props) => {
               </span>
             </div>
             <div className="signup-links-container">
-              <div className="signup-container3">
-                <div className="signup-company-container">
-                  <span className="signup-text11">Company</span>
-                  <span className="signup-text12">About</span>
-                  <span className="signup-text13">Careers</span>
-                  <span className="signup-text14">Contact</span>
-                  <span>Blog</span>
-                </div>
-              </div>
+              <div className="signup-container3"></div>
               <div className="signup-container4">
                 <div className="signup-contact">
-                  <span className="signup-text16">Contact Us</span>
-                  <span className="signup-text17">hello@example.com</span>
+                  <span className="signup-text15">Contact Us</span>
+                  <span className="signup-text16">hello@example.com</span>
                   <span>+0000000000</span>
                 </div>
                 <div className="signup-socials">
-                  <span className="signup-text19">Follow Us</span>
+                  <span className="signup-text18">Follow Us</span>
                   <div className="signup-icon-group">
                     <svg
                       viewBox="0 0 950.8571428571428 1024"

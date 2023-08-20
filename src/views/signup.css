@@ -56,19 +56,19 @@
   justify-content: center;
 }
 .signup-form {
-  width: 483px;
-  height: 501px;
+  width: 437px;
+  height: 524px;
   display: flex;
   flex-wrap: wrap;
   align-self: center;
   box-shadow: 5px 5px 10px 0px #000000,5px 5px 10px 0px #22899b;
   align-items: flex-start;
-  padding-top: var(--dl-space-space-fiveunits);
-  padding-left: var(--dl-space-space-fiveunits);
+  padding-top: var(--dl-space-space-threeunits);
+  padding-left: var(--dl-space-space-threeunits);
   border-radius: var(--dl-radius-radius-radius8);
-  padding-right: var(--dl-space-space-fourunits);
+  padding-right: var(--dl-space-space-threeunits);
   flex-direction: row;
-  padding-bottom: var(--dl-space-space-fiveunits);
+  padding-bottom: var(--dl-space-space-threeunits);
   justify-content: center;
 }
 .signup-text02 {
@@ -82,7 +82,7 @@
 }
 .signup-textinput {
   width: 340px;
-  height: 54px;
+  height: 35px;
   font-family: Arial Black;
 }
 .signup-text05 {
@@ -96,7 +96,35 @@
 }
 .signup-textinput1 {
   width: 340px;
-  height: 54px;
+  height: 35px;
+  font-family: Arial Black;
+}
+.signup-text06 {
+  opacity: 0.8;
+  font-size: 20px;
+  align-self: flex-start;
+  font-style: normal;
+  text-align: left;
+  font-family: Arial Black;
+  font-weight: 600;
+}
+.signup-textinput2 {
+  width: 340px;
+  height: 35px;
+  font-family: Arial Black;
+}
+.signup-text09 {
+  opacity: 0.8;
+  font-size: 20px;
+  align-self: flex-start;
+  font-style: normal;
+  text-align: left;
+  font-family: Arial Black;
+  font-weight: 600;
+}
+.signup-textinput3 {
+  width: 340px;
+  height: 35px;
   font-family: Arial Black;
 }
 .signup-login {
@@ -160,7 +188,7 @@
   font-style: normal;
   font-weight: 700;
 }
-.signup-text08 {
+.signup-text12 {
   margin-top: var(--dl-space-space-oneandhalfunits);
 }
 .signup-links-container {
@@ -170,31 +198,12 @@
   justify-content: space-between;
 }
 .signup-container3 {
+  border: 2px dashed rgba(120, 120, 120, 0.4);
   display: flex;
   align-items: flex-start;
   margin-right: 10rem;
   flex-direction: row;
   justify-content: space-between;
-}
-.signup-company-container {
-  flex: 0 0 auto;
-  display: flex;
-  align-items: flex-start;
-  flex-direction: column;
-  justify-content: flex-start;
-}
-.signup-text11 {
-  font-weight: 700;
-  margin-bottom: var(--dl-space-space-oneandhalfunits);
-}
-.signup-text12 {
-  margin-bottom: var(--dl-space-space-unit);
-}
-.signup-text13 {
-  margin-bottom: var(--dl-space-space-unit);
-}
-.signup-text14 {
-  margin-bottom: var(--dl-space-space-unit);
 }
 .signup-container4 {
   display: flex;
@@ -209,11 +218,11 @@
   flex-direction: column;
   justify-content: flex-start;
 }
-.signup-text16 {
+.signup-text15 {
   font-weight: 700;
   margin-bottom: var(--dl-space-space-oneandhalfunits);
 }
-.signup-text17 {
+.signup-text16 {
   margin-bottom: var(--dl-space-space-unit);
 }
 .signup-socials {
@@ -222,7 +231,7 @@
   flex-direction: column;
   justify-content: flex-start;
 }
-.signup-text19 {
+.signup-text18 {
   font-weight: 700;
   margin-bottom: var(--dl-space-space-oneandhalfunits);
 }
@@ -285,7 +294,7 @@
   .signup-logo {
     align-items: center;
   }
-  .signup-text08 {
+  .signup-text12 {
     margin-top: var(--dl-space-space-twounits);
     text-align: center;
     margin-bottom: var(--dl-space-space-twounits);
@@ -317,7 +326,7 @@
     align-items: center;
     flex-direction: column;
   }
-  .signup-text08 {
+  .signup-text12 {
     margin-top: var(--dl-space-space-twounits);
     margin-bottom: var(--dl-space-space-twounits);
   }

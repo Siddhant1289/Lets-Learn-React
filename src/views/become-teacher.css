@@ -1,4 +1,4 @@
-.login-container {
+.become-teacher-container {
   width: 100%;
   display: flex;
   overflow: auto;
@@ -6,7 +6,7 @@
   align-items: center;
   flex-direction: column;
 }
-.login-container1 {
+.become-teacher-container1 {
   width: 100%;
   display: flex;
   overflow: auto;
@@ -16,7 +16,7 @@
   flex-direction: column;
   background-image: radial-gradient( circle farthest-corner at 92.3% 71.5%,  rgba(83,138,214,1) 0%, rgba(134,231,214,1) 90% );;
 }
-.login-header {
+.become-teacher-header {
   width: 100%;
   display: flex;
   max-width: var(--dl-size-size-maxwidth);
@@ -36,7 +36,7 @@
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
 }
-.login-navlink {
+.become-teacher-navlink {
   color: var(--dl-color-gray-black);
   font-size: 25px;
   align-self: center;
@@ -44,9 +44,8 @@
   font-weight: 900;
   text-decoration: none;
 }
-.login-hero {
-  width: 100%;
-  height: 699px;
+.become-teacher-hero {
+  width: 1568px;
   display: flex;
   padding: var(--dl-space-space-threeunits);
   max-width: var(--dl-size-size-maxwidth);
@@ -56,23 +55,56 @@
   flex-direction: row;
   justify-content: center;
 }
-.login-form {
-  width: 483px;
-  height: 501px;
+.become-teacher-container2 {
+  width: 50%;
+  height: 496px;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.become-teacher-testimonial {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background-color: 232323;
+}
+.become-teacher-container3 {
+  width: 789px;
+  display: flex;
+  padding: var(--dl-space-space-threeunits);
+  max-width: var(--dl-size-size-maxwidth);
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.become-teacher-text02 {
+  color: var(--dl-color-gray-white);
+  margin-bottom: var(--dl-space-space-halfunit);
+}
+.become-teacher-container4 {
+  width: 100%;
+  display: grid;
+  grid-gap: var(--dl-space-space-twounits);
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.become-teacher-form {
+  width: 437px;
+  height: 524px;
   display: flex;
   flex-wrap: wrap;
   align-self: center;
   box-shadow: 5px 5px 10px 0px #000000,5px 5px 10px 0px #22899b;
   align-items: flex-start;
-  padding-top: var(--dl-space-space-fiveunits);
-  padding-left: var(--dl-space-space-fiveunits);
+  margin-left: var(--dl-space-space-sixunits);
+  padding-top: var(--dl-space-space-threeunits);
+  padding-left: var(--dl-space-space-threeunits);
   border-radius: var(--dl-radius-radius-radius8);
-  padding-right: var(--dl-space-space-fourunits);
+  padding-right: var(--dl-space-space-threeunits);
   flex-direction: row;
-  padding-bottom: var(--dl-space-space-fiveunits);
+  padding-bottom: var(--dl-space-space-threeunits);
   justify-content: center;
 }
-.login-text02 {
+.become-teacher-text05 {
   opacity: 0.8;
   font-size: 20px;
   align-self: flex-start;
@@ -81,12 +113,12 @@
   font-family: Arial Black;
   font-weight: 600;
 }
-.login-textinput {
+.become-teacher-textinput {
   width: 340px;
-  height: 54px;
+  height: 35px;
   font-family: Arial Black;
 }
-.login-text05 {
+.become-teacher-text08 {
   opacity: 0.8;
   font-size: 20px;
   align-self: flex-start;
@@ -95,12 +127,40 @@
   font-family: Arial Black;
   font-weight: 600;
 }
-.login-textinput1 {
+.become-teacher-textinput1 {
   width: 340px;
-  height: 54px;
+  height: 35px;
   font-family: Arial Black;
 }
-.login-login {
+.become-teacher-text09 {
+  opacity: 0.8;
+  font-size: 20px;
+  align-self: flex-start;
+  font-style: normal;
+  text-align: left;
+  font-family: Arial Black;
+  font-weight: 600;
+}
+.become-teacher-textinput2 {
+  width: 340px;
+  height: 35px;
+  font-family: Arial Black;
+}
+.become-teacher-text12 {
+  opacity: 0.8;
+  font-size: 20px;
+  align-self: flex-start;
+  font-style: normal;
+  text-align: left;
+  font-family: Arial Black;
+  font-weight: 600;
+}
+.become-teacher-textinput3 {
+  width: 340px;
+  height: 35px;
+  font-family: Arial Black;
+}
+.become-teacher-login {
   font-size: 20px;
   font-style: normal;
   transition: 0.3s;
@@ -112,11 +172,11 @@
   padding-right: var(--dl-space-space-twounits);
   padding-bottom: var(--dl-space-space-unit);
 }
-.login-login:hover {
+.become-teacher-login:hover {
   color: var(--dl-color-gray-white);
   background-color: var(--dl-color-gray-black);
 }
-.login-footer {
+.become-teacher-footer {
   width: 100%;
   display: flex;
   max-width: var(--dl-size-size-maxwidth);
@@ -134,21 +194,21 @@
   border-bottom-left-radius: 0px;
   border-bottom-right-radius: 0px;
 }
-.login-container2 {
+.become-teacher-container5 {
   width: 100%;
   display: flex;
   align-items: flex-start;
   flex-direction: row;
   justify-content: space-between;
 }
-.login-logo {
+.become-teacher-logo {
   height: 63px;
   display: flex;
   max-width: var(--dl-size-size-maxwidth);
   align-items: flex-start;
   flex-direction: column;
 }
-.login-navlink1 {
+.become-teacher-navlink1 {
   font-size: 25px;
   font-style: normal;
   text-align: left;
@@ -156,21 +216,21 @@
   text-transform: capitalize;
   text-decoration: none;
 }
-.login-navlink1:focus {
+.become-teacher-navlink1:focus {
   font-size: 35px;
   font-style: normal;
   font-weight: 700;
 }
-.login-text08 {
+.become-teacher-text15 {
   margin-top: var(--dl-space-space-oneandhalfunits);
 }
-.login-links-container {
+.become-teacher-links-container {
   display: flex;
   align-items: flex-start;
   flex-direction: row;
   justify-content: space-between;
 }
-.login-container3 {
+.become-teacher-container6 {
   border: 2px dashed rgba(120, 120, 120, 0.4);
   display: flex;
   align-items: flex-start;
@@ -178,57 +238,57 @@
   flex-direction: row;
   justify-content: space-between;
 }
-.login-container4 {
+.become-teacher-container7 {
   display: flex;
   align-items: flex-start;
   flex-direction: column;
   justify-content: flex-start;
 }
-.login-contact {
+.become-teacher-contact {
   display: flex;
   align-items: flex-start;
   margin-bottom: var(--dl-space-space-oneandhalfunits);
   flex-direction: column;
   justify-content: flex-start;
 }
-.login-text11 {
+.become-teacher-text18 {
   font-weight: 700;
   margin-bottom: var(--dl-space-space-oneandhalfunits);
 }
-.login-text12 {
+.become-teacher-text19 {
   margin-bottom: var(--dl-space-space-unit);
 }
-.login-socials {
+.become-teacher-socials {
   display: flex;
   align-items: flex-start;
   flex-direction: column;
   justify-content: flex-start;
 }
-.login-text14 {
+.become-teacher-text21 {
   font-weight: 700;
   margin-bottom: var(--dl-space-space-oneandhalfunits);
 }
-.login-icon-group {
+.become-teacher-icon-group {
   display: flex;
   align-items: center;
   flex-direction: row;
   justify-content: space-between;
 }
-.login-icon {
+.become-teacher-icon {
   width: var(--dl-size-size-xsmall);
   height: var(--dl-size-size-xsmall);
   margin-right: var(--dl-space-space-unit);
 }
-.login-icon2 {
+.become-teacher-icon2 {
   width: var(--dl-size-size-xsmall);
   height: var(--dl-size-size-xsmall);
   margin-right: var(--dl-space-space-unit);
 }
-.login-icon4 {
+.become-teacher-icon4 {
   width: var(--dl-size-size-xsmall);
   height: var(--dl-size-size-xsmall);
 }
-.login-separator {
+.become-teacher-separator {
   width: 100%;
   height: 1px;
   margin-top: var(--dl-space-space-twounits);
@@ -236,86 +296,102 @@
   background-color: var(--dl-color-gray-900);
 }
 @media(max-width: 991px) {
-  .login-hero {
+  .become-teacher-hero {
     flex-direction: column;
   }
-  .login-footer {
+  .become-teacher-text02 {
+    text-align: center;
+  }
+  .become-teacher-container4 {
+    grid-template-columns: 1fr;
+  }
+  .become-teacher-footer {
     flex-direction: column;
   }
-  .login-container3 {
+  .become-teacher-container6 {
     margin-right: var(--dl-space-space-fourunits);
   }
 }
 @media(max-width: 767px) {
-  .login-header {
+  .become-teacher-header {
     padding-left: var(--dl-space-space-twounits);
     padding-right: var(--dl-space-space-twounits);
   }
-  .login-hero {
+  .become-teacher-hero {
     padding-left: var(--dl-space-space-twounits);
     padding-right: var(--dl-space-space-twounits);
   }
-  .login-footer {
+  .become-teacher-container3 {
     padding-left: var(--dl-space-space-twounits);
     padding-right: var(--dl-space-space-twounits);
   }
-  .login-container2 {
+  .become-teacher-footer {
+    padding-left: var(--dl-space-space-twounits);
+    padding-right: var(--dl-space-space-twounits);
+  }
+  .become-teacher-container5 {
     align-items: center;
     flex-direction: column;
     justify-content: space-between;
   }
-  .login-logo {
+  .become-teacher-logo {
     align-items: center;
   }
-  .login-text08 {
+  .become-teacher-text15 {
     margin-top: var(--dl-space-space-twounits);
     text-align: center;
     margin-bottom: var(--dl-space-space-twounits);
   }
-  .login-links-container {
+  .become-teacher-links-container {
     width: 100%;
     align-items: flex-start;
     flex-direction: row;
     justify-content: center;
   }
-  .login-container3 {
+  .become-teacher-container6 {
     margin-right: var(--dl-space-space-fourunits);
   }
 }
 @media(max-width: 479px) {
-  .login-header {
+  .become-teacher-header {
     padding: var(--dl-space-space-unit);
   }
-  .login-hero {
+  .become-teacher-hero {
     padding-top: var(--dl-space-space-twounits);
     padding-left: var(--dl-space-space-unit);
     padding-right: var(--dl-space-space-unit);
     padding-bottom: var(--dl-space-space-twounits);
   }
-  .login-footer {
+  .become-teacher-container3 {
+    padding-top: var(--dl-space-space-twounits);
+    padding-left: var(--dl-space-space-unit);
+    padding-right: var(--dl-space-space-unit);
+    padding-bottom: var(--dl-space-space-twounits);
+  }
+  .become-teacher-footer {
     padding: var(--dl-space-space-unit);
   }
-  .login-container2 {
+  .become-teacher-container5 {
     align-items: center;
     flex-direction: column;
   }
-  .login-text08 {
+  .become-teacher-text15 {
     margin-top: var(--dl-space-space-twounits);
     margin-bottom: var(--dl-space-space-twounits);
   }
-  .login-links-container {
+  .become-teacher-links-container {
     align-items: center;
     flex-direction: column;
   }
-  .login-container3 {
+  .become-teacher-container6 {
     margin-right: 0px;
   }
-  .login-container4 {
+  .become-teacher-container7 {
     margin-top: var(--dl-space-space-oneandhalfunits);
     align-items: flex-start;
     margin-bottom: 0px;
   }
-  .login-contact {
+  .become-teacher-contact {
     align-items: flex-start;
     margin-bottom: var(--dl-space-space-unit);
   }
